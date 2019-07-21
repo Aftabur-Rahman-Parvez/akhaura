@@ -24,6 +24,9 @@
     .profile_title_details{
         margin-top:10px;
     }
+    #main-menu li{
+        border-bottom: 1px solid #fff;
+    }
 }
 
 /*// Small devices (landscape phones, 576px and up)*/
@@ -44,6 +47,9 @@
         background: linear-gradient(90deg, rgba(13,46,56,1) 0%, rgba(69,186,224,1) 50%, rgba(16,69,85,1) 100%);
         box-shadow: 0px 2px 2px 0px rgba(101, 127, 135, 0.5);
         border-color: #fff;
+    }
+    #main-menu li{
+        border-bottom: 1px solid #fff;
     }
 }
 
