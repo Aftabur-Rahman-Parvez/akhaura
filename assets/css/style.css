@@ -502,6 +502,9 @@ h2.post-title-value-style{
 .post-details-value-image{
     width:60%;
 }
+.post-details-value-image.profile-image-person {
+ width:100%;
+}
 
 .post-right-sidebar-image{
     width:80%;
@@ -546,6 +549,12 @@ h2.post-title-value-style{
     font-weight: bold;
     margin-top: 8px;
     color: #fff;
+}
+.logo-image a{
+  text-decoration: none;
+}
+.profile_title_details{
+    margin-top:40px;
 }
 
 

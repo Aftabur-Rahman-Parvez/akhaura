@@ -11,6 +11,9 @@
     .footer-col-ex-b{
         padding-left: 25px;
     }
+    .profile_title_details{
+        margin-top:10px;
+    }
 }
 
 /*// Small devices (landscape phones, 576px and up)*/
@@ -22,6 +25,9 @@
     .extra-padding-footer{
         padding-left: 15px;
         padding-right: 15px;
+    }
+    .profile_title_details{
+        margin-top:10px;
     }
 }
 
@@ -35,11 +41,29 @@
         padding-left: 15px;
         padding-right: 15px;
     }
+    .profile_title_details{
+        margin-top:10px;
+    }
+    #main-menu li a.nav-link {
+        font-weight: 700;
+        font-size: 12px;
+        padding-left: .2rem;
+        padding-right: .2rem;
+    }
+    .post-right-sidebar-text a {
+
+        font-size: 12px;
+    }
 }
 
 /*// Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199.98px) {
-
+    #main-menu li a.nav-link {
+        font-weight: 700;
+        font-size: 14px;
+        padding-left: .2rem;
+        padding-right: .2rem;
+    }
 }
 
 /*// Extra large devices (large desktops, 1200px and up)*/
