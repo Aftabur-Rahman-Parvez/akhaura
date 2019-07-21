@@ -12,9 +12,9 @@ $(document).ready(function(){
 
         responsiveClass: true,
         autoHeight: true,
-        autoplayTimeout: 7000,
+        autoplayTimeout: 5000,
         smartSpeed: 800,
-        nav: true,
+        nav: false,
         responsive: {
             0: {
                 items: 1
@@ -87,5 +87,11 @@ $(document).ready(function(){
     wow.init();
 
 
+
 })
+
+// $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+//     event.preventDefault();
+//     $(this).ekkoLightbox();
+// });
 
