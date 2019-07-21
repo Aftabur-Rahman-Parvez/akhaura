@@ -66,31 +66,25 @@ $(document).ready(function(){
         }
     });
 
-    // home-news-carousel slider js
-    // $('.news-slick').slick({
-    //     speed: 9000,
-    //     autoplay: true,
-    //     autoplaySpeed: 0,
-    //     centerMode: true,
-    //     cssEase: 'linear',
-    //     slidesToShow: 1,
-    //     slidesToScroll: 1,
-    //     variableWidth: true,
-    //     infinite: true,
-    //     initialSlide: 1,
-    //     draggable: true,
-    //     arrows: false,
-    //     pauseOnHover: true,
-    //     pauseOnFocus: true,
-    //     touchMove: true,
-    //     buttons: false,
-    //     focusOnSelect:false,
-    // });
     $('.js-conveyor-news').jConveyorTicker({
         anim_duration:   200,
         reverse_elm:     false,
         force_loop:      false ,
     });
+    var wow = new WOW(
+        {
+            boxClass:     'wow',
+            animateClass: 'animated',
+            offset:       0,
+            mobile:       true,
+            live:         true,
+            callback:     function(box) {
+
+            },
+            scrollContainer: null,
+        }
+    );
+    wow.init();
 
 
 })

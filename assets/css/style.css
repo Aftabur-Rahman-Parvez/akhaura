@@ -207,6 +207,7 @@ a{
 }
 .bg-light.main-menu-nav{
     background-color: #f9f9f991!important;
+    z-index: 999999;
 }
 .main-menu-nav .dropdown-toggle::after{
     display:none;
@@ -560,8 +561,19 @@ h2.post-title-value-style{
 
 /*----------Another page design End--------------*/
 
-
-
+/*animation*/
+.my-animated .animate{
+    -webkit-animation-duration: 3s;
+    -moz-animation-duration: 3s;
+    -ms-animation-duration: 3s;
+    -o-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -ms-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
 
 
 
