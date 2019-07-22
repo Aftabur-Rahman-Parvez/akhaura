@@ -30,7 +30,8 @@ a{
     background: rgb(22,93,116);
     background: linear-gradient(90deg, rgba(22,93,116,1) 0%, rgba(65,180,217,1) 42%, rgba(22,93,116,1) 100%);
     padding-top: 5px;
-    padding-bottom: 4px;
+    padding-bottom: 5px;
+    box-shadow: 0 2px 3px rgba(22,93,116,0.1);
 }
 .header-top-left{
     padding-left: 10px;
@@ -46,11 +47,14 @@ a{
 .search-btn{
 
 }
+.search-btn input.form-control{
+    font-size: .8rem;
+}
 .search-btn input{
     height: calc(1.2em + .6rem + 2px);
 }
 .search-btn button{
-    padding: .15rem .75rem;
+    padding: .14rem .75rem;
 }
 .language-btn{}
 .language-btn input{
@@ -153,6 +157,9 @@ a{
     font-weight: 700;
     margin-left: 30px;
     text-shadow: -1px -1px 10px #333, 1px -1px 10px #333, -1px 1px 10px #333, 1px 1px 10px #333;
+}
+.logo-title h3{
+    font-size: 1.8rem;
 }
 
 /*menu part*/
@@ -401,6 +408,25 @@ a{
     padding: 8px;
     border: 1px solid #ccc;
     background: #ededed;
+}
+#home-galary-carousel .owl-nav{
+    display:none;
+}
+.ekko-lightbox .modal-header{
+    border:none;
+    padding: 0px;
+
+}
+.ekko-lightbox .modal-header h4.modal-title{
+    display: none;
+}
+.ekko-lightbox .modal-header .close{
+    height: 15px;
+    border: none;
+    position: absolute;
+    top: 0px;
+    right: 1px;
+    z-index: 999;
 }
 
 

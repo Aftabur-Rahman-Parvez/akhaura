@@ -37,7 +37,7 @@ $(document).ready(function(){
         autoplay: true,
         lazyLoad: true,
         loop: true,
-        margin: 20,
+        margin: 10,
 
         animateOut: 'fadeOut',
         animateIn: 'fadeIn',
@@ -47,13 +47,17 @@ $(document).ready(function(){
         autoplayTimeout: 7000,
         smartSpeed: 800,
         nav: true,
+        dots:false,
         responsive: {
             0: {
-                items: 1
+                items: 2,
+
             },
 
             600: {
-                items: 3
+                items: 3,
+
+
             },
 
             1024: {
@@ -90,8 +94,10 @@ $(document).ready(function(){
 
 })
 
-// $(document).on('click', '[data-toggle="lightbox"]', function(event) {
-//     event.preventDefault();
-//     $(this).ekkoLightbox();
-// });
+$(document).on('click', '[data-toggle="lightbox"]', function(event) {
+    event.preventDefault();
+    $(this).ekkoLightbox({
+        alwaysShowClose: true,
+    });
+});
 
